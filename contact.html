@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Green Harmony Resort for any questions or inquiries about booking your dream vacation.">
+    <link rel="icon" href="images/favicon.png" type="image/x-icon">
+    <meta name="author" content="Luke Morrison">
+    <title>Green Harmony Resort | Contact</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="logo"><a href="index.html">Green Harmony Resort</a></div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accommodations</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="images/swiss-valley.jpg" alt="A scenic view of a Swiss valley" width="1280" height="500">
+    </section>
+
+    <main class="contact-page">
+        <section class="contact-form-section">
+            <h2>Contact Us</h2>
+            <p>Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us! Required fields are marked with a *</p>
+            <img src="images/swiss-sunset.jpg" alt="Swiss Sunset view" class="contact-image" width="600" height="400">
+            <div class="form-container">
+                <form action="https://wp.zybooks.com/form-viewer.php" method="get">
+                    <div class="form-grid">
+                        <div class="form-left">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" required>
+
+                            <label for="email">Email Address *</label>
+                            <input type="email" id="email" name="email" required>
+
+                            <label for="phone">Phone Number *</label>
+                            <input type="tel" id="phone" name="phone" required>
+                        </div>
+                        <div class="form-right">
+                            <fieldset>
+                                <legend>Preferred Contact Method *</legend>
+                                <label class="radio-inline">
+                                    Email
+                                    <input type="radio" id="contact-email" name="contact-method" value="email" required>
+                                </label>
+                                <label class="radio-inline">
+                                    Phone
+                                    <input type="radio" id="contact-phone" name="contact-method" value="phone" required>
+                                </label>
+                            </fieldset>
+
+                            <label for="comments">Comments *</label>
+                            <textarea id="comments" name="comments" required></textarea>
+                        </div>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright ©2024 - Green Harmony Resort</p>
+        <p>This site is for educational purposes only.</p>
+    </footer>
+</body>
+</html>
